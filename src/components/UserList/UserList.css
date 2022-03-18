@@ -1,0 +1,49 @@
+.btn-danger {
+  background-image: linear-gradient(
+    to right,
+    #e52d27 0%,
+    #b31217 51%,
+    #e52d27 100%
+  );
+}
+.btn-danger {
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-color: transparent;
+}
+
+.btn-danger:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+  border-color: transparent;
+}
+
+.btn-success {
+  background-image: linear-gradient(
+    to right,
+    #134e5e 0%,
+    #71b280 51%,
+    #134e5e 100%
+  );
+}
+.btn-success {
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-color: transparent;
+}
+
+.btn-success:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+  border-color: transparent;
+}
+
+div.card-header {
+  text-transform: capitalize;
+}
