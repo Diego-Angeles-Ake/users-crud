@@ -25,9 +25,7 @@ function userFormReducer(state, action) {
       };
 
     case 'DELETE_USER':
-      axios.delete(
-        `https://users-crud1.herokuapp.com/users/${selectedUser.id}/`
-      );
+      axios.delete(`https://users-crud1.herokuapp.com/users/${action.userID}/`);
       return { ...state };
 
     case 'UPDATING_USER':
